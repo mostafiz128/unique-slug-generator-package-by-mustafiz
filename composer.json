@@ -1,0 +1,37 @@
+{
+    "name": "mustafiz/laravel-unique-slug",
+    "description": "A unique slug-generator in laravel",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./laravel-unique-slug-generator"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mustafiz\\LaravelUniqueSlug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mostafiz310",
+            "email": "mostafiztopu@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mustafiz\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Mustafiz\\LaravelUniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}
