@@ -20,7 +20,7 @@
             "email": "mostafiztopu@yahoo.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "extra": {
         "laravel": {
