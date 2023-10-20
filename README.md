@@ -1,4 +1,8 @@
 # laravel-unique-slug-generator
+## Require PHP version:
+```php
+ "php": "^8.1"
+```
 ## Installation
 ```sh
 composer require mustafiz/laravel-unique-slug
