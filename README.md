@@ -5,7 +5,7 @@
 ```
 ## Installation
 ```sh
-composer require mustafiz/laravel-unique-slug
+composer require mustafiz/laravel-unique-slug:dev-main
 ```
 
 ## use controller
